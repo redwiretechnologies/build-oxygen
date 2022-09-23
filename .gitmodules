@@ -1,0 +1,39 @@
+[submodule "meta-rwt-oxygen"]
+	path = meta-rwt-oxygen
+	url = https://github.com/redwiretechnologies/meta-rwt-oxygen.git
+	branch = dunfell
+[submodule "meta-rwt-common"]
+	path = meta-rwt-common
+	url = https://github.com/redwiretechnologies/meta-rwt-common.git
+	branch = dunfell
+[submodule "meta-adi"]
+	path = meta-adi
+	url = https://github.com/redwiretechnologies/meta-adi.git
+[submodule "meta-sdr"]
+	path = meta-sdr
+	url = https://github.com/redwiretechnologies/meta-sdr.git
+	branch = dunfellmaint-3.10
+[submodule "meta-xilinx-tools"]
+	path = meta-xilinx-tools
+	url = https://github.com/redwiretechnologies/meta-xilinx-tools.git
+	branch = dunfell
+[submodule "poky"]
+	path = poky
+	url = https://git.yoctoproject.org/poky
+	branch = dunfell
+[submodule "meta-qt5"]
+	path = meta-qt5
+	url = https://github.com/meta-qt5/meta-qt5.git
+	branch = dunfell
+[submodule "meta-python-mixin"]
+	path = meta-python-mixin
+	url = https://gitlab.eclipse.org/eclipse/oniro-core/meta-python-mixin
+	branch = dunfell
+[submodule "meta-openembedded"]
+	path = meta-openembedded
+	url = https://github.com/openembedded/meta-openembedded.git
+	branch = dunfell
+[submodule "meta-xilinx"]
+	path = meta-xilinx
+	url = https://github.com/redwiretechnologies/meta-xilinx.git
+	branch = dunfell
