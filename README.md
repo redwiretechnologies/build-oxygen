@@ -8,6 +8,7 @@ Information about the branch names is available at https://wiki.yoctoproject.org
 
 
 Install the Xilinx Vitis tools for the 2020.2 release
+The files should be installed in the /opt/Xilinx default directory structure or the local.conf will need to be updated to point to the correct directory
 
 Getting Started
 Clone the git repository:
