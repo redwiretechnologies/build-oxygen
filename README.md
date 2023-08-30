@@ -15,6 +15,10 @@ Clone the git repository:
 
 $ git clone https://github.com/redwiretechnologies/build-oxygen.git
 
+Change directory
+$ cd build-oxygen
+
+
 Update the submodules:
 
 $ git submodule update --init
