@@ -13,7 +13,10 @@ The files should be installed in the /opt/Xilinx default directory structure or 
 Getting Started
 Clone the git repository:
 
-$ git clone https://github.com/redwiretechnologies/build-oxygen.git
+$ git clone https://github.com/redwiretechnologies/build-oxygen.git -b kirkstone
+
+Change Directory
+$cd build-oxygen
 
 Update the submodules:
 
@@ -27,6 +30,6 @@ Select the MACHINE to build for:
 
 Build an image:
 
-$ bitbake rwt-sdr-image
+$ bitbake rwt-sdr-image -k
 
 
