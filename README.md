@@ -24,7 +24,7 @@ $ git submodule update --init
 
 Initialize the build system:
 
-$ TEMPLATECONF=`pwd`/meta-rwt-oxygen/conf/ source ./poky/oe-init-build-env ./build
+$ TEMPLATECONF=\`pwd\`/meta-rwt-oxygen/conf/ source ./poky/oe-init-build-env ./build
 
 Select the MACHINE to build for:
 
