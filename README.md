@@ -32,8 +32,8 @@ Build an image:
 
 $ bitbake rwt-sdr-image -k
 
-If and error occurs running configuration in linux-adi:
-try
+If an error occurs running configuration in linux-adi try:
+
 $ cd ../
 $ bitbake rwt-sdr-image -k
 
