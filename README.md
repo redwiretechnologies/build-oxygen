@@ -32,4 +32,14 @@ Build an image:
 
 $ bitbake rwt-sdr-image -k
 
+If an error occurs running configuration in linux-adi try:
+
+$ cd ../
+
+$ bitbake rwt-sdr-image -k
+
+Use bitmaptools to copy the file:
+
+rwt-sdr-image-oxygen.wic to a sdcard
+
 
