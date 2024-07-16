@@ -1,36 +1,32 @@
 [submodule "meta-rwt-oxygen"]
 	path = meta-rwt-oxygen
 	url = https://github.com/redwiretechnologies/meta-rwt-oxygen.git
-	branch = kirkstone
+	branch = scarthgap
 [submodule "meta-rwt-common"]
 	path = meta-rwt-common
 	url = https://github.com/redwiretechnologies/meta-rwt-common.git
-	branch = kirkstone
+	branch = scarthgap
 [submodule "meta-adi"]
 	path = meta-adi
-	url = https://github.com/redwiretechnologies/meta-adi.git
-	branch = kirkstone
-[submodule "meta-sdr"]
-	path = meta-sdr
-	url = https://github.com/redwiretechnologies/meta-sdr.git
-	branch = kirkstone
+	url = https://github.com/analogdevicesinc/meta-adi.git
+	branch = main
 [submodule "meta-xilinx-tools"]
 	path = meta-xilinx-tools
-	url = https://github.com/redwiretechnologies/meta-xilinx-tools.git
-	branch = kirkstone
+	url = https://github.com/xilinx/meta-xilinx-tools.git
+	branch = scarthgap
 [submodule "poky"]
 	path = poky
 	url = https://git.yoctoproject.org/poky
-	branch = kirkstone
+	branch = scarthgap
 [submodule "meta-qt5"]
 	path = meta-qt5
 	url = https://github.com/meta-qt5/meta-qt5.git
-	branch = kirkstone
+	branch = scarthgap
 [submodule "meta-openembedded"]
 	path = meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded.git
-	branch = kirkstone
+	branch = scarthgap
 [submodule "meta-xilinx"]
 	path = meta-xilinx
-	url = https://github.com/redwiretechnologies/meta-xilinx.git
-	branch = kirkstone
+	url = https://github.com/xilinx/meta-xilinx.git
+	branch = scarthgap
