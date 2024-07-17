@@ -7,7 +7,7 @@ OpenEmbedded allows the creation of custom linux distributions for embedded syst
 Information about the branch names is available at https://wiki.yoctoproject.org/wiki/Releases. Helpful articles about working with GNUradio and Openembedded are at: http://www.opensdr.com/categories/.
 
 
-Install the Xilinx Vitis tools for the 2021.2 release
+Install the Xilinx Vitis tools for the 2023.2 release
 The files should be installed in the /opt/Xilinx default directory structure or the local.conf will need to be updated to point to the correct directory
 
 Getting Started
