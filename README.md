@@ -1,6 +1,6 @@
 # build-oxygen
 A package of the submodules to build custom openembedded images for the RWT Oxygen  SDR Development Kit
-This is currently nuilt on the kirkstone branch of OpenEmbedded/Yocto
+This is currently nuilt on the scarthgap branch of OpenEmbedded/Yocto
 
 OpenEmbedded allows the creation of custom linux distributions for embedded systems. It is a collection of git repositories known as layers each of which provides recipes to build software packages as well as configuration information.
 
@@ -13,7 +13,7 @@ The files should be installed in the /opt/Xilinx default directory structure or 
 Getting Started
 Clone the git repository:
 
-$ git clone https://github.com/redwiretechnologies/build-oxygen.git -b kirkstone
+$ git clone https://github.com/redwiretechnologies/build-oxygen.git -b scarthgap
 
 Change Directory
 $cd build-oxygen

@@ -10,10 +10,6 @@
 	path = meta-adi
 	url = https://github.com/analogdevicesinc/meta-adi.git
 	branch = main
-[submodule "meta-xilinx-tools"]
-	path = meta-xilinx-tools
-	url = https://github.com/xilinx/meta-xilinx-tools.git
-	branch = scarthgap
 [submodule "poky"]
 	path = poky
 	url = https://git.yoctoproject.org/poky
@@ -28,5 +24,13 @@
 	branch = scarthgap
 [submodule "meta-xilinx"]
 	path = meta-xilinx
-	url = https://github.com/xilinx/meta-xilinx.git
+	url = https://github.com/Xilinx/meta-xilinx.git
 	branch = scarthgap
+[submodule "meta-xilinx-tools"]
+	path = meta-xilinx-tools
+	url = https://github.com/Xilinx/meta-xilinx-tools.git
+	branch = scarthgap
+[submodule "meta-sdr"]
+	path = meta-sdr
+	url = https://github.com/balister/meta-sdr.git
+	branch = master
