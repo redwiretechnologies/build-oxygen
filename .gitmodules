@@ -8,8 +8,8 @@
 	branch = scarthgap
 [submodule "meta-adi"]
 	path = meta-adi
-	url = https://github.com/analogdevicesinc/meta-adi.git
-	branch = main
+	url = https://github.com/redwiretechnologies/meta-adi.git
+	branch = scarthgap
 [submodule "poky"]
 	path = poky
 	url = https://git.yoctoproject.org/poky
