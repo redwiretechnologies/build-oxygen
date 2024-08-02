@@ -24,7 +24,7 @@ $ git submodule update --init
 
 Initialize the build system:
 
-$ TEMPLATECONF=\`pwd\`/meta-rwt-oxygen/conf/ source ./poky/oe-init-build-env ./build
+$ TEMPLATECONF=\`pwd\`/meta-rwt-oxygen/conf/templates/default source ./poky/oe-init-build-env ./build
 
 Select the MACHINE to build for:
 
@@ -42,4 +42,8 @@ Use bitmaptools to copy the file:
 
 rwt-sdr-image-oxygen.wic to a sdcard
 
+To update the submodules to the latest versions:
 
+$ git submodule update --remote
+
+Running this command may update repos which will trigger a near full rebuid of the distrubion.  Updating the repos helps to fix bugs and also fix CVEs in the system
