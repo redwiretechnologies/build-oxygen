@@ -33,4 +33,12 @@
 [submodule "meta-sdr"]
 	path = meta-sdr
 	url = https://github.com/balister/meta-sdr.git
-	branch = master
+	branch = walnascar
+[submodule "meta-arm"]
+	path = meta-arm
+	url = https://git.yoctoproject.org/meta-arm
+	branch = scarthgap
+[submodule "meta-python-webcomponents"]
+	path = meta-python-webcomponents
+	url = https://github.com/redwiretechnologies/meta-python-webcomponents.git
+	branch = scarthgap
